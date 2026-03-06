@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Me – Your Name</title>
+  
+  <style>
+    :root {
+      --primary: #0066cc;
+      --dark: #1a1a1a;
+      --light: #f8f9fa;
+      --gray: #6c757d;
+    }
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      background: var(--light);
+      color: var(--dark);
+      line-height: 1.6;
+    }
+    
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+    
+    header {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      text-align: center;
+      padding: 120px 20px 80px;
+      margin-bottom: 60px;
+    }
+    
+    header h1 {
+      font-size: 3.5rem;
+      margin-bottom: 0.4rem;
+    }
+    
+    header .tagline {
+      font-size: 1.4rem;
+      opacity: 0.9;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    
+    .avatar {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 8px solid rgba(255,255,255,0.25);
+      margin-bottom: 1.5rem;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    }
+    
+    section {
+      margin: 60px 0;
+    }
+    
+    h2 {
+      color: var(--primary);
+      font-size: 2.2rem;
+      margin-bottom: 1.2rem;
+      position: relative;
+      padding-bottom: 0.6rem;
+    }
+    
+    h2:after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 80px;
+      height: 4px;
+      background: var(--primary);
+      border-radius: 2px;
+    }
+    
+    .about-text {
+      font-size: 1.15rem;
+      max-width: 760px;
+    }
+    
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+    
+    .skill-item {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+      transition: all 0.2s;
+    }
+    
+    .skill-item:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+    }
+    
+    .skill-item h3 {
+      color: var(--primary);
+      margin-bottom: 0.6rem;
+    }
+    
+    .contact {
+      background: var(--dark);
+      color: white;
+      text-align: center;
+      padding: 80px 20px;
+      border-radius: 16px;
+      margin: 80px 0;
+    }
+    
+    .social-links a {
+      color: white;
+      margin: 0 12px;
+      font-size: 1.8rem;
+      text-decoration: none;
+      opacity: 0.85;
+      transition: all 0.2s;
+    }
+    
+    .social-links a:hover {
+      opacity: 1;
+      transform: translateY(-3px);
+    }
+    
+    footer {
+      text-align: center;
+      padding: 40px 0;
+      color: var(--gray);
+      font-size: 0.95rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <!-- === CHANGE THESE THREE THINGS === -->
+    <img src="C:\Users\Abdulla\Desktop\mypage\1.gif" alt="Your photo" class="avatar">
+    <h1>Hi, I'm Abdulla</h1>
+    <p class="tagline">Typical Gamer • Building things that make life slightly less boring since 2020</p>
+  </header>
+
+  <div class="container">
+
+    <section>
+      <h2>About Me</h2>
+      <div class="about-text">
+        <!-- ↓ Edit everything between these lines ↓ -->
+        <p>
+        i just started learning html lmfao
+        </p>
+      
+      
+        <!-- ↑ Edit everything between these lines ↑ -->
+      </div>
+    </section>
+
+    
+
+    
+  </div>
+
+  <footer>
+    <!-- Optional: change the year or remove -->
+    <p>© 2026 AKM • Made by abm</p>
+  </footer>
+
+</body>
+</html>
